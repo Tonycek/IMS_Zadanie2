@@ -1,0 +1,2 @@
+c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\IMS_Zadanie_2.UWP.csproj;x86
+c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.csproj;neutral

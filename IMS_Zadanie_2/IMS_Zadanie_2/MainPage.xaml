@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:IMS_Zadanie_2"
+             x:Class="IMS_Zadanie_2.MainPage">
+    
+    <ScrollView>
+        
+        <StackLayout
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand">
+        
+            <StackLayout
+                x:Name="stackPanel1"
+                VerticalOptions="CenterAndExpand"
+                Orientation="Vertical"
+                IsVisible="True">
+
+                <Button
+                    Text="Študíjny program"
+                    Clicked="Button_Clicked"/>
+                <!--
+                <ListView x:Name="postsListView">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+
+                                <TextCell 
+                                    Text="{Binding Title}" />
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+        -->
+            </StackLayout>
+
+
+            <StackLayout
+                x:Name="stackPanel2"
+                Orientation="Vertical"
+                IsVisible="False">
+
+                <Label
+                    x:Name="labelText"/>
+
+            </StackLayout>
+
+            <TableView
+                x:Name="tabulka"
+                IsVisible="False"/>
+
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>
