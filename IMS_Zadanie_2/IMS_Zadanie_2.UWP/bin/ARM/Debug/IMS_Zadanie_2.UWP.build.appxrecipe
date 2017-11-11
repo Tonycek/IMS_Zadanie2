@@ -10,22 +10,22 @@
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>3e2daf14-1ca1-4fca-8271-0a7b7f2dbd5a</PackageIdentityName>
     <PackageIdentityPublisher>CN=Tono</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\obj\ARM\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\bin\ARM\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\bin\ARM\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\bin\ARM\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\bin\ARM\Debug\IMS_Zadanie_2.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\bin\ARM\Debug\IMS_Zadanie_2.UWP.exe">
       <PackagePath>entrypoint\IMS_Zadanie_2.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tono\.nuget\packages\Microsoft.CSharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -403,135 +403,135 @@
     <AppxPackagedFile Include="C:\Users\Tono\.nuget\packages\Xamarin.Forms\2.3.4.224\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2\bin\Debug\IMS_Zadanie_2.dll">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2\bin\Debug\IMS_Zadanie_2.dll">
       <PackagePath>IMS_Zadanie_2.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2\bin\Debug\IMS_Zadanie_2.dll.config">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2\bin\Debug\IMS_Zadanie_2.dll.config">
       <PackagePath>IMS_Zadanie_2.dll.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\LockScreenLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\LockScreenLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\LockScreenLogo.scale-125.png">
       <PackagePath>Assets\LockScreenLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\LockScreenLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\LockScreenLogo.scale-150.png">
       <PackagePath>Assets\LockScreenLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\LockScreenLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\LockScreenLogo.scale-400.png">
       <PackagePath>Assets\LockScreenLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\bin\ARM\Debug\IMS_Zadanie_2.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\bin\ARM\Debug\IMS_Zadanie_2.UWP.xr.xml">
       <PackagePath>IMS_Zadanie_2.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
@@ -543,11 +543,11 @@
     <AppxPackagedFile Include="C:\Users\Tono\.nuget\packages\Xamarin.Forms\2.3.4.224\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\bin\ARM\Debug\Core\IMS_Zadanie_2.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.UWP\bin\ARM\Debug\Core\IMS_Zadanie_2.UWP.exe">
       <PackagePath>IMS_Zadanie_2.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

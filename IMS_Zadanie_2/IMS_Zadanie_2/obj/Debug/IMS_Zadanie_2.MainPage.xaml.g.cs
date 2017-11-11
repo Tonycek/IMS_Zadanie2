@@ -11,7 +11,7 @@
 namespace IMS_Zadanie_2 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\users\\tono\\documents\\visual studio 2017\\Projects\\IMS_Zadanie_2\\IMS_Zadanie_2\\I" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Tono\\Documents\\Visual Studio 2017\\Projects\\IMS_Zadanie_2\\IMS_Zadanie_2\\I" +
         "MS_Zadanie_2\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         

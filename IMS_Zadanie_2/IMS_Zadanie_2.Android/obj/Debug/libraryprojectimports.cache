@@ -2,8 +2,8 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
@@ -11,7 +11,7 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>c:\users\tono\documents\visual studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Tono\Documents\Visual Studio 2017\Projects\IMS_Zadanie_2\IMS_Zadanie_2\IMS_Zadanie_2.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

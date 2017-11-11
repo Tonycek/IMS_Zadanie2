@@ -4,7 +4,9 @@
              xmlns:local="clr-namespace:IMS_Zadanie_2"
              x:Class="IMS_Zadanie_2.MainPage">
     
-    <ScrollView>
+    <ScrollView
+        HorizontalOptions="CenterAndExpand"
+        VerticalOptions="CenterAndExpand">
         
         <StackLayout
             VerticalOptions="CenterAndExpand"
@@ -13,6 +15,7 @@
             <StackLayout
                 x:Name="stackPanel1"
                 VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
                 Orientation="Vertical"
                 IsVisible="True">
 

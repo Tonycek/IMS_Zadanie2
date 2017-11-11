@@ -225,7 +225,22 @@ namespace IMS_Zadanie_2
 
             //**************************************************************************************
             tabulka.Intent = TableIntent.Settings;
-            var layout = new StackLayout() { Orientation = StackOrientation.Horizontal };
+            StackLayout[] layout = new StackLayout[30]; // = new StackLayout() { Orientation = StackOrientation.Horizontal };
+            for (int i = 0; i < 30; i++)
+            {
+                layout[i] = new StackLayout() { Orientation = StackOrientation.Horizontal };
+            }
+
+            int cisloLayout = 0,x = 26;
+            var layout1 = new StackLayout() { Orientation = StackOrientation.Horizontal };
+            var layout2 = new StackLayout() { Orientation = StackOrientation.Horizontal };
+            var layout3 = new StackLayout() { Orientation = StackOrientation.Horizontal };
+            var layout4 = new StackLayout() { Orientation = StackOrientation.Horizontal };
+            var layout5 = new StackLayout() { Orientation = StackOrientation.Horizontal };
+            var layout6 = new StackLayout() { Orientation = StackOrientation.Horizontal };
+            var layout7 = new StackLayout() { Orientation = StackOrientation.Horizontal };
+            var layout8 = new StackLayout() { Orientation = StackOrientation.Horizontal };
+            var layout9 = new StackLayout() { Orientation = StackOrientation.Horizontal };
 
             int[] indexTabulka = new int[5];
             indexTabulka[0] = text.IndexOf("tabulka-mvi");
@@ -247,43 +262,328 @@ namespace IMS_Zadanie_2
                 if (i == 0)
                 {
                     var data = new Test { Test1 = "1.Ročník", Test2 = "Zimný semester" };
-                    layout.Children.Add(new Label()
+                    layout1.Children.Add(new Label()
                     {
                         Text = "1.Ročník",
                         TextColor = Color.FromHex("#f35e20"),
+                        FontSize = 11,
                         VerticalOptions = LayoutOptions.Center
                     });
-                    layout.Children.Add(new Label()
+                    layout1.Children.Add(new Label()
                     {
                         Text = "Zimný semester",
                         TextColor = Color.FromHex("#503026"),
                         VerticalOptions = LayoutOptions.Center,
-                        HorizontalOptions = LayoutOptions.EndAndExpand
+                        FontSize = 11,
+                        HorizontalOptions = LayoutOptions.CenterAndExpand
                     });
+                 
+                    //tabulka.Root = new TableRoot() {
+                    //    new TableSection("Getting Started") {
+                    //        new ViewCell() {View = layout}
+                    //    }
+                    //};
+                }
 
-                    var layout2 = new StackLayout() { Orientation = StackOrientation.Horizontal };
+                thPositionEnd = text.IndexOf("</th>", thPositionStart);
+                string retazec = text.Substring(thPositionStart + 4, thPositionEnd - (thPositionStart + 4));
+                tdZaciatok = text.IndexOf("<td", thPositionEnd) + 4;
+                trKoniec = text.IndexOf("</tr>", tdZaciatok);
+
+                while (tdZaciatok < indexTabulka[i + 1])
+                {
+                    if (tdZaciatok > trKoniec)
+                    {
+                        trKoniec = text.IndexOf("</tr>", trKoniec + 1);
+
+                        var data = new Test { Test1 = textyDoGridu[0], Test2 = textyDoGridu[1], Test3 = textyDoGridu[2], Test4 = textyDoGridu[3], Test5 = textyDoGridu[4] };
+                        //layout = new StackLayout { Orientation = StackOrientation.Horizontal };
+                        layout[cisloLayout].Children.Add(new Label()
+                        {
+                            Text = textyDoGridu[0],
+                            TextColor = Color.FromHex("#f35e20"),
+                            FontSize = 10,
+                            VerticalOptions = LayoutOptions.Center
+                        });
+                        layout[cisloLayout].Children.Add(new Label()
+                        {
+                            Text = textyDoGridu[1],
+                            TextColor = Color.FromHex("#503026"),
+                            VerticalOptions = LayoutOptions.Center,
+                            FontSize = 10,
+                            HorizontalOptions = LayoutOptions.EndAndExpand
+                        });
+                        layout[cisloLayout].Children.Add(new Label()
+                        {
+                            Text = textyDoGridu[2],
+                            TextColor = Color.FromHex("#f35e20"),
+                            FontSize = 10,
+                            VerticalOptions = LayoutOptions.Center
+                        });
+                        layout[cisloLayout].Children.Add(new Label()
+                        {
+                            Text = textyDoGridu[3],
+                            TextColor = Color.FromHex("#503026"),
+                            VerticalOptions = LayoutOptions.Center,
+                            FontSize = 10,
+                            HorizontalOptions = LayoutOptions.EndAndExpand
+                        });
+                        layout[cisloLayout].Children.Add(new Label()
+                        {
+                            Text = textyDoGridu[4],
+                            TextColor = Color.FromHex("#f35e20"),
+                            FontSize = 10,
+                            VerticalOptions = LayoutOptions.Center
+                        });
+
+                        //    tabulka.Root = new TableRoot() {
+                        //    new TableSection("Getting Started") {
+                        //        new ViewCell() {View = layout}
+                        //    }
+                        //};
+                        cisloLayout++;
+                        poradoveCisloDoGridu = 0;
+                    }
+                    tdKoniec = text.IndexOf("</td>", tdZaciatok);
+                    string tdText = text.Substring(tdZaciatok, tdKoniec - tdZaciatok);
+                    textyDoGridu[poradoveCisloDoGridu] = tdText;
+
+                    if (tdKonecnyKoniec == tdKoniec)
+                        break;
+                    tdZaciatok = text.IndexOf("<td", tdZaciatok + 1) + 4;
+                    poradoveCisloDoGridu++;
+                }
+                var data1 = new Test { Test1 = textyDoGridu[0], Test2 = textyDoGridu[1], Test3 = textyDoGridu[2], Test4 = textyDoGridu[3], Test5 = textyDoGridu[4] };
+               // layout = new StackLayout { Orientation = StackOrientation.Horizontal };
+                layout[x].Children.Add(new Label()
+                {
+                    Text = textyDoGridu[0],
+                    TextColor = Color.FromHex("#f35e20"),
+                    FontSize = 11,
+                    VerticalOptions = LayoutOptions.Center
+                });
+                layout[x].Children.Add(new Label()
+                {
+                    Text = textyDoGridu[1],
+                    TextColor = Color.FromHex("#503026"),
+                    VerticalOptions = LayoutOptions.Center,
+                    HorizontalOptions = LayoutOptions.EndAndExpand
+                });
+                layout[x].Children.Add(new Label()
+                {
+                    Text = textyDoGridu[2],
+                    TextColor = Color.FromHex("#f35e20"),
+                    VerticalOptions = LayoutOptions.Center
+                });
+                layout[x].Children.Add(new Label()
+                {
+                    Text = textyDoGridu[3],
+                    TextColor = Color.FromHex("#503026"),
+                    VerticalOptions = LayoutOptions.Center,
+                    HorizontalOptions = LayoutOptions.EndAndExpand
+                });
+                layout[x].Children.Add(new Label()
+                {
+                    Text = textyDoGridu[4],
+                    TextColor = Color.FromHex("#f35e20"),
+                    FontSize = 11,
+                    VerticalOptions = LayoutOptions.Center
+                });
+                x++;
+
+                //tabulka.Root = new TableRoot() {
+                //        new TableSection("Getting Started") {
+                //            new ViewCell() {View = layout}
+                //        }
+                //    };
+
+                if ((i + 1) == 1)
+                {
+                    var data = new Test { Test1 = "" };
+                   // layout = new StackLayout { Orientation = StackOrientation.Horizontal };
                     layout2.Children.Add(new Label()
                     {
-                        Text = "2.Ročník",
+                        Text = "",
                         TextColor = Color.FromHex("#f35e20"),
                         VerticalOptions = LayoutOptions.Center
                     });
-                    layout2.Children.Add(new Label()
+                    //tabulka.Root = new TableRoot() {
+                    //    new TableSection("Getting Started") {
+                    //        new ViewCell() {View = layout}
+                    //    }
+                    //};
+
+                    data = new Test { Test1 = "1.Ročník", Test2 = "Letný semester" };
+
+                   // layout = new StackLayout { Orientation = StackOrientation.Horizontal };
+                    layout3.Children.Add(new Label()
+                    {
+                        Text = "1.Ročník",
+                        TextColor = Color.FromHex("#f35e20"),
+                        FontSize = 11,
+                        VerticalOptions = LayoutOptions.Center
+                    });
+                    layout3.Children.Add(new Label()
                     {
                         Text = "Letný semester",
                         TextColor = Color.FromHex("#503026"),
                         VerticalOptions = LayoutOptions.Center,
-                        HorizontalOptions = LayoutOptions.EndAndExpand
+                        FontSize = 11,
+                        HorizontalOptions = LayoutOptions.CenterAndExpand
+                    });                  
+
+                    //tabulka.Root = new TableRoot() {
+                    //    new TableSection("Getting Started") {
+                    //        new ViewCell() {View = layout}
+                    //    }
+                    //};
+                }
+
+                if ((i + 1) == 2)
+                {
+                    var data = new Test { Test1 = "" };
+                  //  layout = new StackLayout { Orientation = StackOrientation.Horizontal };
+                    layout4.Children.Add(new Label()
+                    {
+                        Text = "",
+                        TextColor = Color.FromHex("#f35e20"),
+                        VerticalOptions = LayoutOptions.Center
+                    });
+                    //tabulka.Root = new TableRoot() {
+                    //    new TableSection("Getting Started") {
+                    //        new ViewCell() {View = layout}
+                    //    }
+                    //};
+
+                    data = new Test { Test1 = "2.Ročník", Test2 = "Zimný semester" };
+                   // layout = new StackLayout { Orientation = StackOrientation.Horizontal };
+                    layout5.Children.Add(new Label()
+                    {
+                        Text = "2.Ročník",
+                        TextColor = Color.FromHex("#f35e20"),
+                        FontSize = 11,
+                        VerticalOptions = LayoutOptions.Center
+                    });
+                    layout5.Children.Add(new Label()
+                    {
+                        Text = "Zimný semester",
+                        TextColor = Color.FromHex("#503026"),
+                        VerticalOptions = LayoutOptions.Center,
+                        FontSize = 11,
+                        HorizontalOptions = LayoutOptions.CenterAndExpand
                     });
 
-                    tabulka.Root = new TableRoot() {
-                        new TableSection("Getting Started") {
-                            new ViewCell() {View = layout},
-                            new ViewCell() {View = layout2}
-                        }
-                    };
-                }               
+                    //tabulka.Root = new TableRoot() {
+                    //    new TableSection("Getting Started") {
+                    //        new ViewCell() {View = layout}
+                    //    }
+                    //};
+                }
+
+                if ((i + 1) == 3)
+                {
+                    var data = new Test { Test1 = "" };
+                   // layout = new StackLayout { Orientation = StackOrientation.Horizontal };
+                    layout6.Children.Add(new Label()
+                    {
+                        Text = "",
+                        TextColor = Color.FromHex("#f35e20"),
+                        VerticalOptions = LayoutOptions.Center
+                    });
+                    //tabulka.Root = new TableRoot() {
+                    //    new TableSection("Getting Started") {
+                    //        new ViewCell() {View = layout}
+                    //    }
+                    //};
+
+                    data = new Test { Test1 = "2.Ročník", Test2 = "Letný semester" };
+                   // layout = new StackLayout { Orientation = StackOrientation.Horizontal };
+                    layout7.Children.Add(new Label()
+                    {
+                        Text = "2.Ročník",
+                        TextColor = Color.FromHex("#f35e20"),
+                        FontSize = 11,
+                        VerticalOptions = LayoutOptions.Center
+                    });
+                    layout7.Children.Add(new Label()
+                    {
+                        Text = "Letný semester",
+                        TextColor = Color.FromHex("#503026"),
+                        VerticalOptions = LayoutOptions.Center,
+                        FontSize = 11,
+                        HorizontalOptions = LayoutOptions.CenterAndExpand
+                    });
+
+                    //tabulka.Root = new TableRoot() {
+                    //    new TableSection("Getting Started") {
+                    //        new ViewCell() {View = layout}
+                    //    }
+                    //};
+                }
+
+                //tabulka.Root = new TableRoot() {
+                //        new TableSection("Getting Started") {
+                //            new ViewCell() {View = layout1},
+                //            new ViewCell() {View = layout2},
+                //            new ViewCell() {View = layout3},
+                //            new ViewCell() {View = layout4},
+                //            new ViewCell() {View = layout5},
+                //            new ViewCell() {View = layout6},
+                //            new ViewCell() {View = layout7}
+                //        }
+                //    };
+                //textyDoGridu = new string[10];
+                poradoveCisloDoGridu = 0;
+
+                thPositionStart = text.IndexOf("<th>", thPositionStart + 5);
+
             }
+
+            tabulka.Root = new TableRoot() {
+                    new TableSection("Studijny program") {
+                        new ViewCell() {View = layout1},
+                        new ViewCell() {View = layout[0]},
+                        new ViewCell() {View = layout[1]},
+                        new ViewCell() {View = layout[2]},
+                        new ViewCell() {View = layout[3]},
+                        new ViewCell() {View = layout[4]},
+                        new ViewCell() {View = layout[5]},
+                        new ViewCell() {View = layout[26]},
+                        new ViewCell() {View = layout2},
+
+                        new ViewCell() {View = layout3},
+                        new ViewCell() {View = layout[6]},
+                        new ViewCell() {View = layout[7]},
+                        new ViewCell() {View = layout[8]},
+                        new ViewCell() {View = layout[9]},
+                        new ViewCell() {View = layout[10]},
+                        new ViewCell() {View = layout[11]},
+                        new ViewCell() {View = layout[27]},
+                        new ViewCell() {View = layout4},
+
+                        
+                        new ViewCell() {View = layout5},
+                        new ViewCell() {View = layout[12]},
+                        new ViewCell() {View = layout[13]},
+                        new ViewCell() {View = layout[14]},
+                        new ViewCell() {View = layout[15]},
+                        new ViewCell() {View = layout[16]},
+                        new ViewCell() {View = layout[17]},
+                        new ViewCell() {View = layout[18]},
+                        new ViewCell() {View = layout[19]},
+                        new ViewCell() {View = layout[28]},
+                        new ViewCell() {View = layout6},
+
+
+                        new ViewCell() {View = layout7},
+                        new ViewCell() {View = layout[20]},
+                        new ViewCell() {View = layout[22]},
+                        new ViewCell() {View = layout[29]}
+                    }
+                };
         }
     }
 }
+
+//new ViewCell() { View = layout},
+//                            new ViewCell() { View = layout2}

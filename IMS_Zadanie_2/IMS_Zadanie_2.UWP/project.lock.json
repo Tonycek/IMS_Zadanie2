@@ -24500,16 +24500,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "c:\\users\\tono\\documents\\visual studio 2017\\Projects\\IMS_Zadanie_2\\IMS_Zadanie_2\\IMS_Zadanie_2.UWP\\IMS_Zadanie_2.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Tono\\Documents\\Visual Studio 2017\\Projects\\IMS_Zadanie_2\\IMS_Zadanie_2\\IMS_Zadanie_2.UWP\\IMS_Zadanie_2.UWP.csproj",
       "projectName": "IMS_Zadanie_2.UWP",
-      "projectPath": "c:\\users\\tono\\documents\\visual studio 2017\\Projects\\IMS_Zadanie_2\\IMS_Zadanie_2\\IMS_Zadanie_2.UWP\\IMS_Zadanie_2.UWP.csproj",
-      "projectJsonPath": "c:\\users\\tono\\documents\\visual studio 2017\\Projects\\IMS_Zadanie_2\\IMS_Zadanie_2\\IMS_Zadanie_2.UWP\\project.json",
+      "projectPath": "C:\\Users\\Tono\\Documents\\Visual Studio 2017\\Projects\\IMS_Zadanie_2\\IMS_Zadanie_2\\IMS_Zadanie_2.UWP\\IMS_Zadanie_2.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\Tono\\Documents\\Visual Studio 2017\\Projects\\IMS_Zadanie_2\\IMS_Zadanie_2\\IMS_Zadanie_2.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "c:\\users\\tono\\documents\\visual studio 2017\\Projects\\IMS_Zadanie_2\\IMS_Zadanie_2\\IMS_Zadanie_2\\IMS_Zadanie_2.csproj": {
-              "projectPath": "c:\\users\\tono\\documents\\visual studio 2017\\Projects\\IMS_Zadanie_2\\IMS_Zadanie_2\\IMS_Zadanie_2\\IMS_Zadanie_2.csproj"
+            "C:\\Users\\Tono\\Documents\\Visual Studio 2017\\Projects\\IMS_Zadanie_2\\IMS_Zadanie_2\\IMS_Zadanie_2\\IMS_Zadanie_2.csproj": {
+              "projectPath": "C:\\Users\\Tono\\Documents\\Visual Studio 2017\\Projects\\IMS_Zadanie_2\\IMS_Zadanie_2\\IMS_Zadanie_2\\IMS_Zadanie_2.csproj"
             }
           }
         }
