@@ -40,6 +40,14 @@ namespace IMS_Zadanie_2
             getText();
         }
 
+        protected async override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            
+    
+        }
+
         private async Task<string> getText()
         {
             string text = await client.GetStringAsync(Url);
@@ -581,6 +589,22 @@ namespace IMS_Zadanie_2
                         new ViewCell() {View = layout[29]}
                     }
                 };
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            stackPanel1.IsVisible = false;
+            stackPanel2.IsVisible = true;
+            tabulka.IsVisible = false;
+            Device.BeginInvokeOnMainThread(async () => {
+
+                RestClient client = new RestClient();
+                var wingetresult = await client.Get<WingetResult>("http://validate.jsontest.com/?json=%7B%22key%22:%22value%22");
+                if (wingetresult != null)
+                {
+                    labelText.Text = wingetresult.error_info;
+                }
+            });
         }
     }
 }

@@ -22,6 +22,10 @@
                 <Button
                     Text="Študíjny program"
                     Clicked="Button_Clicked"/>
+
+                <Button
+                    Text="Rest"
+                    Clicked="Button_Clicked_1"/>
                 <!--
                 <ListView x:Name="postsListView">
                     <ListView.ItemTemplate>

@@ -14,6 +14,7 @@ namespace IMS_Zadanie_2
             InitializeComponent();
 
             MainPage = new IMS_Zadanie_2.MainPage();
+
         }
 
         protected override void OnStart()
